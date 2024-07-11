@@ -1,0 +1,11 @@
+# Example script to analyze root causes of data breaches
+
+# Sample data - root causes of breaches
+root_causes = ['Phishing', 'Malware', 'Insider Threats', 'Unpatched Software']
+
+# Count occurrences of each root cause
+cause_counts = Counter(root_causes)
+
+print("Root causes of data breaches:")
+for cause, count in cause_counts.items():
+    print(f"- {cause}: {count} occurrences")
