@@ -1,0 +1,13 @@
+# Example script to analyze types of data compromised
+
+# Sample data - types of data compromised
+types_compromised = ['Personal Information', 'Financial Records', 'Intellectual Property', 'Health Records']
+
+# Count occurrences of each type
+from collections import Counter
+
+type_counts = Counter(types_compromised)
+
+print("Types of data compromised:")
+for data_type, count in type_counts.items():
+    print(f"- {data_type}: {count} occurrences")
