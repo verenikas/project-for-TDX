@@ -1,0 +1,9 @@
+# Example script to calculate financial costs of data breaches
+
+# Sample data - financial costs in dollars
+financial_costs = [10000, 25000, 15000, 30000, 20000]
+
+# Calculate the total financial costs
+total_costs = sum(financial_costs)
+
+print(f"Total financial costs of data breaches: ${total_costs}")
