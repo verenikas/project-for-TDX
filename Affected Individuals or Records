@@ -1,0 +1,9 @@
+# Example script to calculate affected individuals or records
+
+# Sample data - number of records affected per breach
+records_affected = [1000, 500, 2000, 1500, 3000]
+
+# Calculate the total number of affected records
+total_records_affected = sum(records_affected)
+
+print(f"Total number of records affected: {total_records_affected}")
