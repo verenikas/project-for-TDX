@@ -1,0 +1,20 @@
+# Example script to calculate mean time to detect (MTTD) and mean time to respond (MTTR)
+
+# Sample data - response times in hours
+response_times = {
+    'Incident 1': {'MTTD': 2, 'MTTR': 4},
+    'Incident 2': {'MTTD': 3, 'MTTR': 5},
+    'Incident 3': {'MTTD': 1, 'MTTR': 3},
+    'Incident 4': {'MTTD': 2, 'MTTR': 6},
+    'Incident 5': {'MTTD': 3, 'MTTR': 4},
+}
+
+# Calculate average MTTD and MTTR
+mttd_values = [incident['MTTD'] for incident in response_times.values()]
+mttr_values = [incident['MTTR'] for incident in response_times.values()]
+
+avg_mttt = sum(mttd_values) / len(mttd_values)
+avg_mttr = sum(mttr_values) / len(mttr_values)
+
+print(f"Average Mean Time to Detect (MTTD): {avg_mttt} hours")
+print(f"Average Mean Time to Respond (MTTR): {avg_mttr} hours")
