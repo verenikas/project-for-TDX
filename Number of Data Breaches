@@ -1,0 +1,18 @@
+Number of Data Breaches
+
+# Example script to calculate the number of data breaches
+
+# Sample data - number of breaches per month
+data_breaches = {
+    'January': 5,
+    'February': 7,
+    'March': 3,
+    'April': 6,
+    'May': 4
+}
+
+# Calculate the total number of breaches
+total_breaches = sum(data_breaches.values())
+
+print(f"Total number of data breaches: {total_breaches}")
+
