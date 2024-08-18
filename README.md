@@ -81,6 +81,8 @@ Cybersecurity involves protecting computer systems, networks, and data from digi
 - Growing role of AI and machine learning.
 - Greater focus on regulatory compliance.
 
+
+https://www.canva.com/design/DAGN4pSwPcU/e-DC_iD8zTQoLjAypOeeqw/view?utm_content=DAGN4pSwPcU&utm_campaign=designshare&utm_medium=link&utm_source=editor#1
 ## Call to Action
 - Encourage organizations to prioritize cybersecurity and update strategies to meet evolving threats.
 
